@@ -1,0 +1,24 @@
+ .contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px;
+  gap: 10px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+} .input-val {
+    height: 50px;
+} .input-comment {
+    height: 200px;
+} .checkbox-menu {
+    display: flex;
+    gap: 10px;
+} .checkbox-menu h5 {
+    margin: 0;
+} .contact-form button {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}

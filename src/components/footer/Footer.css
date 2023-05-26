@@ -1,0 +1,110 @@
+.footer-line1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+footer h2 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #2b2a29;
+}
+.footer-line1 ul li {
+  list-style: none;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 46px;
+}
+.footer-line2 {
+  background: #6b9d52;
+  
+  height: max-content;
+
+}
+.footer-text h2 {
+  font-family: 'Castoro Titling', cursive;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+.footer-icons {
+  display: flex;
+  gap: 30px;
+}
+.footer-icons i {
+  font-size: 85px;
+  color: white;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer-text h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .footer-line1 {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+  }
+  .footer-line2 {
+    display: block;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .footer-line1 {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer h2 {
+    text-align: center;
+  }
+  .footer-text h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer-line1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+  }
+  .footer-line2 {
+    display: block;
+    padding: 0px;
+  }
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .footer-line1 ul li {
+    font-size: 19px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footer-line1 ul {
+    padding: 50px 0px;
+  }
+  .footer-line1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-line1 ul li {
+    font-size: 20px;
+  }
+}

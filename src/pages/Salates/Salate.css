@@ -1,0 +1,181 @@
+.all-green-big-text {
+  background: #6b9d52;
+}
+.all-green-big-text h1 {
+  font-family: 'Vina Sans', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.all-card-styles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  margin: 1rem;
+}
+.product-card {
+  max-width: 310px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 1rem;
+}
+.product-card:hover {
+  box-shadow: -1px 2px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.product-card-img {
+  display: flex;
+  justify-content: center;
+}
+.product-card-img img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+ height: 206px;
+}
+.product-card-body h3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+}
+.product-card-body p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #797272;
+}
+.product-card-body h4 {
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+} .product-button {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+} .product-button li {
+  color: rgb(186, 118, 129);
+  font-family: 'Prompt', sans-serif;
+}
+.add-zakaz {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+  background: #fecf3d;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: none;
+}
+.delete-zakaz {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+  background: #ee3c1c;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: none;
+} 
+@media only screen and (max-width: 1300px) {
+  .all-green-big-text h1 {
+    font-size: 70px;
+  }
+  .all-card-styles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  } .product-card {
+    width: 260px;
+  } .product-card-body h3 {
+     font-size: 32px;
+  } .product-card-body p {
+     font-size: 20px;
+  }  .product-button {
+    padding: 10px 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .all-green-big-text h1 {
+    font-size: 60px;
+  }
+  .all-card-styles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }  .product-card {
+    width: 285px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .all-green-big-text h1 {
+    font-size: 55px;
+  }
+    .all-card-styles {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+  } .product-card {
+    max-width: 280px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .all-card-styles {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+} .product-card {
+  max-width: 330px;
+  width: 100%;
+  margin: 1rem;
+}
+}
+@media only screen and (max-width: 450px) {
+  .all-green-big-text h1 {
+    font-size: 50px;
+  }
+  .all-card-styles {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+} .product-card {
+  max-width: 350px;
+  width: 100%;
+} .product-card-body h3 {
+  font-size: 22px;
+}  .product-card-body p {
+  font-size: 17px;
+}  .product-card-body h4 {
+  font-size: 25px;
+}
+}
+@media only screen and (max-width: 322px) {
+  .all-green-big-text h1  {
+    font-size: 40px;
+  }
+  .all-card-styles {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+} .product-card {
+  max-width: 280px;
+  width: 100%;
+}
+}

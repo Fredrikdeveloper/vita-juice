@@ -1,0 +1,108 @@
+.korzinka_null {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+  font-size: 30px;
+  font-family: 'Instrument Serif', serif;
+}
+.delete-all-card-parent {
+  display: flex;
+  justify-content: center;
+}
+.delete-all-card {
+  width: 90%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+  background: #fecf3d;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: none;
+  margin: 20px 0px;
+}
+.basket-card {
+  width: 100%;
+  border-bottom: 10px dashed black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 0px;
+}
+.basket-button {
+  display: flex;
+  align-items: center;
+  background: #fecf3d;
+  border-radius: 30px;
+  padding: 5px 30px;
+}
+.basket-button button {
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+.basket-button p {
+  margin: 0;
+  padding: 0px 5px;
+}
+.trash-bag {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.trash-bag i {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.trash-bag p {
+  margin: 0;
+}
+.basket-price {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 50px 0px;
+} .basket-price h1 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #2b2a29;
+}  .basket-img img {
+  width: 350px;
+} .buy-button {
+  background-color: black;
+  color: white;
+  padding: 5px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .basket-img {
+    display: flex;
+    justify-content: center;
+  }
+  .basket-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .basket-card {
+    display: block;
+  }
+  .basket-button {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .basket-text h1 {
+    text-align: center;
+    padding: 10px 0px;
+  }
+}

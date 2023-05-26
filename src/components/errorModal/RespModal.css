@@ -1,0 +1,27 @@
+  .modal-text h3 {
+   font-size: 26px;
+   text-align: center;
+   font-family: 'Anuphan', sans-serif;
+} .modal-text h1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Anuphan', sans-serif;
+} .modal-text h2 {
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Anuphan', sans-serif;
+} .modal-icon i {
+    float: right;
+} 
+@media only screen and (max-width: 900px) {
+    .modal-img {
+        margin-top: 30px;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    .modal-img {
+        margin-top: 100px;
+    } .modal-main-body {
+        background-color: rgb(241, 240, 240);
+    }
+}

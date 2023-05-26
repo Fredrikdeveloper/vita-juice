@@ -1,0 +1,62 @@
+ .order-card-body-text h4 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 1rem;
+}  .order-card-texts {
+   margin: 60px auto;
+   text-align: center;
+} .icon-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 50px;
+} .icons-and-text img {
+   margin: 0 auto;
+   padding: 40px 0px;
+}.icons-and-text p {
+  margin: 0;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2b2a29;
+  text-align: center;
+} .final-order {
+  background: #fecf3d;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+  border: none;
+  padding: 5px 10px;
+  margin: 30px 0px;
+} .final-order a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .icon-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  } .order-card-body-text h4  {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .icon-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

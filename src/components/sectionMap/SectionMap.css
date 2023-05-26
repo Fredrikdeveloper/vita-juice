@@ -1,0 +1,121 @@
+.map-body {
+  background: linear-gradient(291.53deg, #fecf3d 3.56%, #6b9d52 69.58%);
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+.map-menu {
+  width: 50%;
+  padding: 50px;
+}
+.circles {
+  display: flex;
+  padding: 40px 0px;
+  justify-content: center;
+}
+.circle-all-white-text {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 20px 0px;
+}
+.circle-card {
+  width: 300px;
+}
+.circle-menu {
+  display: flex;
+  justify-content: center;
+}
+.circle-yellow,
+.circle-orange,
+.circle-pink {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.circle-yellow {
+  background: #fecf3d;
+}
+.circle-orange {
+  background: #f29114;
+}
+.circle-pink {
+  background: #f08aa8;
+}
+.circle-body h4 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.circle-body p {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.map-img {
+  display: flex;
+  flex-direction: column;
+}
+.cloudes {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1450px) {
+  .circle-body h4 {
+    font-size: 14px;
+  }
+  .circle-body p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .map-menu {
+    width: 100%;
+  }
+  .map-img,
+  .cloudes,
+  .men-img {
+    display: none;
+  }
+  .circle-body h4 {
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+  }
+  .circle-body p {
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .circles {
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+  }
+  .circle-card {
+    padding: 40px 0px;
+  }
+}
+@media only screen and (max-width: 322px) {
+  .circles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .circle-all-white-text {
+    font-size: 30px;
+  }
+}

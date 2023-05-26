@@ -1,0 +1,46 @@
+ .admin-form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+} .admin-select {
+  background-color: rgb(141, 31, 181);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 10px;
+} .admin-select option {
+  font-size: 18px;
+} .admin-input {
+  height: 50px;
+  margin: 1rem 0px;
+} .admin-table {
+  margin-top: 40px;
+} .log-out-btn-menu {
+  display: flex;
+  justify-content: end;
+  margin: 1rem;
+}
+
+ .admin-login-menu {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  gap: 30px;
+} .admin-login-menu input {
+  height: 40px;
+  width: 190px;
+  border: none;
+} .admin-documentation {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 700px) {
+ .admin-table-style {
+   font-size: 12px;
+ }
+}
+@media only screen and (max-width: 322px) {
+  .admin-table-style {
+    font-size: 8px;
+  }
+ }

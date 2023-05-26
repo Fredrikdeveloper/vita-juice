@@ -1,0 +1,45 @@
+ .err-pagess-body {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+} .err-pagess {
+    -webkit-text-stroke-color: rgb(79, 158, 22);
+    -webkit-text-stroke-width: 2px;
+    font-size: 80px;
+    color: rgb(224, 200, 13);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Instrument Serif', serif;
+  } 
+  @media only screen and (max-width: 1200px)  {
+    .err-pagess {
+        font-size: 60px;
+    }
+  }
+  @media only screen and (max-width: 992px)  {
+    .err-pagess {
+        font-size: 50px;
+    }
+  }
+  @media only screen and (max-width: 768px)  {
+    .err-pagess {
+        font-size: 45px;
+    }
+  }
+  @media only screen and (max-width: 576px)  {
+    .err-pagess {
+        font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 322px)  {
+    .err-pagess {
+        font-size: 30px;
+        -webkit-text-stroke-width: 1px;
+    }
+  }

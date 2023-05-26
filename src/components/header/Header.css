@@ -1,0 +1,25 @@
+.header-img {
+    height: auto;
+  
+} .head-img {
+    width: 100%;
+    height: 70vh;
+}
+@media only screen and (max-width: 992px) {
+.head-img {
+    width: 100%;
+    height: 50vh;
+}
+}
+@media only screen and (max-width: 768px) {
+.head-img {
+    width: 100%;
+    height: 40vh;
+}
+}
+@media only screen and (max-width: 576px) {
+.head-img {
+    width: 100%;
+    height: 30vh;
+}
+}        

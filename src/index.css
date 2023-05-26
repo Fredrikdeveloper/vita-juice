@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Roboto+Mono:wght@500&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Cormorant+Garamond:wght@500&family=Expletus+Sans:ital@1&family=Gurajada&family=Itim&family=Laila:wght@300&family=Nanum+Myeongjo&family=Oswald:wght@200&family=Roboto+Mono:wght@500&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e5e5e5;
+}
+body img {
+  display: block;
+}
+ .slick-arrow {
+  display: none !important;
+}   .dropbtn  {
+  background: none;
+  padding: 18px 10px;
+} 

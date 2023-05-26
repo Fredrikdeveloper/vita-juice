@@ -1,0 +1,38 @@
+.about-box {
+    width: 500px;
+    margin: 0 auto;
+} .about-box h3 {
+    text-align: center;
+    padding: 50px 0px;
+    
+} .all-paragraf-text, .about-p-text {
+    font-size: 24px;
+    color: rgb(7, 6, 6);
+    font-family: 'Roboto Mono', monospace;
+    
+} .about-p-text {
+    text-align: center;
+    line-height: 50px;
+} .about-img {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-box {
+        width: 410px;
+    } .all-paragraf-text, .about-p-text {
+        font-size: 20px;
+        font-family: 'Laila', sans-serif;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .about-box {
+        width: 300px;
+    } .all-paragraf-text, .about-p-text {
+        font-size: 17px;
+        font-family: 'Expletus Sans', cursive;
+    }
+}
+  

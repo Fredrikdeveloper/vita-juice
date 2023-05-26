@@ -1,0 +1,38 @@
+.big-text-body {
+  display: flex;
+  justify-content: center;
+  border-top: 10px dashed black;
+  border-bottom: 10px dashed black;
+}
+.big-text-body h2 {
+  font-family: 'Vina Sans', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 96px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2a29;
+  padding: 30px 0px;
+}
+@media only screen and (max-width: 768px) {
+  .big-text-body {
+    border-top: 8px dashed black;
+    border-bottom: 8px dashed black;
+  }
+  .big-text-body h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 576px) {
+
+  .big-text-body h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 322px) {
+
+  .big-text-body h2 {
+    font-size: 30px;
+  }
+}
